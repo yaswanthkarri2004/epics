@@ -1,0 +1,184 @@
+* {
+    padding-top: 0%;
+}
+.top{
+    
+    background-color:rgba(192,192,192,0.3);
+    padding: 5%; 
+    align-items: center;
+}
+.search {
+    padding: 0px; 
+    width: 50%;
+    margin-bottom:1% ;
+    margin-left: 20%;
+    border: 1px solid black;
+    border-radius: 15px;
+    position:relative;
+    align-items: center;
+}
+.search input,button{
+    
+    border: none;
+}
+
+.search input{
+     width: 91%;
+     background: none;
+     text-align: center;
+     border: none;
+     box-sizing: border-box;
+     text-decoration-color: black;
+}
+.search input[type=text] {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0px solid red;
+  }
+.logo{
+    margin: none;
+    position: relative;
+    background-color:rgba(192,192,192,0.3);
+}
+.logo img{
+    height: 10%;
+    width: 10%;
+}
+.bg-lig{
+    background-image: url('https://www.utphysicians.com/wp-content/uploads/2022/02/fruits-and-vegetables-rainbow.jpg');
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    align-items: center;
+    /* background-color:rgba(192,192,192,0.3); */
+    background-position: right;
+}
+.search button{
+    background: none;
+}
+	/* Sidebar */
+    .sidebar {
+        position: fixed;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .sidebar.show {
+        left: 0;
+    }
+
+    /* Toggle button */
+    #toggle-sidebar {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
+    /* dark mode */
+    :root {
+        --bg-color: #f8f9fa;
+        --text-color: #212529;
+        --link-color: #007bff;
+    }
+
+    body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+
+    a {
+        color: var(--link-color);
+    }
+
+    .dark-mode {
+        --bg-color: #212529;
+        --text-color: #f8f9fa;
+        --link-color: #4aa0e0;
+    }
+
+    /* Style for toggle switch */
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: .4s;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        transition: .4s;
+    }
+
+    input:checked + .slider {
+        background-color: #007bff;
+    }
+
+    input:focus + .slider {
+        box-shadow: 0 0 1px #007bff;
+    }
+
+    input:checked + .slider:before {
+        transform: translateX(26px);
+        background-color: #f8f9fa;
+        color: #212529;
+
+    }
+    /* for what is para */
+    #what{
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      }  
+    .cal{
+        border: 1px solid black;
+        /* margin: 1rem; */
+        display: flex;
+        flex-direction: row;
+          padding: 2rem 2rem;
+        text-align: center;
+    }  
+    #cals {
+        /* display: inline-block; */
+         padding: 1rem ; 
+        width: 50%;
+        box-sizing: border-box;
+        vertical-align: middle;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      }  
+      #result{
+        position: relative;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        background-color: rgba(192,192,192,0.3);
+      }
+      #quote{
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        padding: 5%;
+        background-color: rgba(35, 255, 13, 0.7);
+        border-left: green;
+      }

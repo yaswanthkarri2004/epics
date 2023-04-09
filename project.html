@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+        <!-- Main content -->
+        <div class="bg-lig"> 
+            <div class="logo">
+                <img src="https://media.tenor.com/_OtyZNwfShYAAAAM/instagram-logo.gif" />  
+            </div> 
+   <div class="top">
+    <div class="search"> <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i style="font-size:24px" class="fa">&#xf002;</i>
+        </button></div>
+    <div class="menu-bar" >
+        <div class="container-fluid">
+            <button id="toggle-sidebar" class="btn btn-primary"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+        <div class="sidebar">
+            <h1>MENU BAR</h1>
+            <!-- <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+      <label class="form-check-label" for="mySwitch">Dark Mode</label> -->
+            <ul class="nav nav-pills nav-stacked">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                      Table of Content
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                      <li><a href="#what">What is NutriTracker ?</a></li>
+                      <li><a href="#cals">Nutri-Calculator</a></li>
+                      <li><a href="#">Section 3</a></li>
+                    </ul>
+                  </div>
+                  <!-- //addcolumn here -->
+                  <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        $(document).ready(function() {
+            // Toggle sidebar
+            $('#toggle-sidebar').click(function() {
+                $('.sidebar').toggleClass('show');
+            });
+        });
+    </script> 
+   </div>
+  
+    </div>
+    </div>
+</head>
+<body class="bg-light">
+    <div class="container p-5 my-5 border" id="quote">
+    <p class="display-5"><u>Health Quote:-</u></p>
+    <p id="q" class="display-6"></p>
+    </div>
+  <div class="container p-5 my-5 border"id="what">
+    <p class="display-6"><kbd>what is NutriTracker ?</kbd></p>
+    <p class="lead">
+        NutriTracker is a nutrition tracking tool that provides detailed information on the nutritional content of various fruits and vegetables. It includes a vast database of fruits and vegetables, along with their vitamin and mineral content, macronutrient ratios, and other key nutrient metrics. Users can easily search for specific fruits or vegetables and access detailed information on their nutritional content, making it easy to plan meals and ensure adequate nutrient intake.
+
+        In addition, NutriTracker includes a powerful nutrient calculator that allows users to calculate their daily nutrient needs based on their age, gender, and activity level. This calculator takes into account individual differences in nutrient requirements and can help users to ensure that they are getting the right balance of nutrients for optimal health and well-being.
+        
+        Overall, NutriTracker is an essential tool for anyone looking to improve their dietary habits and optimize their nutrient intake. With its comprehensive database of nutritional information and easy-to-use nutrient calculator, NutriTracker makes it easy to achieve your nutrition goals and maintain optimal health and well-being.
+        </p>
+  </div>  
+  <div class="cal" >  
+    <div id="cals">
+        <blockquote  class="list-inline-item">--Nutri-Calculator--</blockquote>
+        <p class="lead"  >Nutri calculator is a tool that takes inputs such as age and weight to calculate the required protein and carb intake for an individual. It helps users make informed decisions about their diets by providing personalized macronutrient recommendations. With its features, it's an essential tool for anyone looking to improve their health and fitness goals.</p>
+    </div>
+    <div class="container p-5 my-5 border" id="cals">
+    <h1>Nutrition Calculator</h1>
+	<form>
+		<label for="gender">Gender:</label>
+		<select class="form-select" id="gender" name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select>
+        <br/>
+		<label for="age">Age:</label>
+		<input type="number" class="form-control form-control-sm"id="age" name="age" required>
+
+		<label for="weight">Weight (kg):</label>
+		<input type="number" id="weight" class="form-control form-control-sm" name="weight" required>
+
+		<label for="health">Health Condition:</label>
+		<select class="form-select" id="health" name="health">
+			<option value="good">Good</option>
+			<option value="average">Average</option>
+			<option value="poor">Poor</option>
+		</select>
+
+		<button type="button" class="btn btn-outline-dark" onclick="calculateNutrition()">Calculate</button>
+	</form>
+
+	<div id="result"></div>
+    <!-- <ul>
+        <li id="res1"></li>
+        <li id="res2"></li>
+        <li id="res3"></li>
+    </ul> -->
+
+	<script>
+		function calculateNutrition() {
+			const gender = document.getElementById("gender").value;
+			const age = parseInt(document.getElementById("age").value);
+			const weight = parseInt(document.getElementById("weight").value);
+			const health = document.getElementById("health").value;
+
+			// Nutrition values in JSON
+			const nutrition = {
+				male: {
+					good: { protein: weight * 1.2, carbs: weight * 3, fat: weight * 0.8 },
+					average: { protein: weight * 1, carbs: weight * 2.5, fat: weight * 0.6 },
+					poor: { protein: weight * 0.8, carbs: weight * 2, fat: weight * 0.4 }
+				},
+				female: {
+					good: { protein: weight * 1.1, carbs: weight * 2.5, fat: weight * 0.7 },
+					average: { protein: weight * 0.9, carbs: weight * 2, fat: weight * 0.5 },
+					poor: { protein: weight * 0.7, carbs: weight * 1.5, fat: weight * 0.3 }
+				}
+			};
+
+			// Calculate daily nutrition based on gender, age, and health condition
+			const dailyProtein = nutrition[gender][health].protein;
+			const dailyCarbs = nutrition[gender][health].carbs;
+			const dailyFat = nutrition[gender][health].fat;
+
+			// Display the result
+            // document.getElementById("res1").innerHTML =  dailyProtein.toFixed(2);
+            // document.getElementById("res2").innerHTML =   dailyCarbs.toFixed(2) ;
+            // document.getElementById("res3").innerHTML = dailyFat.toFixed(2) + "g";
+			document.getElementById("result").innerHTML = "Daily Protein: " + dailyProtein.toFixed(2) + "g<br>" +
+				"Daily Carbohydrates: " + dailyCarbs.toFixed(2) + "g<br>" +
+				"Daily Fat: " + dailyFat.toFixed(2) + "g";
+		}
+	</script>
+  </div>
+  </div>
+
+    <script>
+//         let sentences = [  ["Time and health are two precious assets that we don’t recognize and appreciate until they have been depleted.", "Denis Waitley"],
+//   ["She sells seashells", "by the seashore."],
+//   ["All work and no play", "makes Jack a dull boy."],
+//   ["I scream, you scream,", "we all scream for ice cream."],
+//   ["The early bird catches", "the worm."]
+// ];
+let sentences =[
+["A healthy outside starts from the inside.", "Robert Urich"],
+["A fit body, a calm mind, a house full of love. These things cannot be bought – they must be earned.", "Naval Ravikant"],
+["The wish for healing has always been half of health.", "Lucius Annaeus Seneca"],
+["A good laugh and a long sleep are the best cures in the doctor’s book.","Irish proverb"],
+["The more you understand yourself, the more silence there is, the healthier you are.","Maxime Lagacé"],
+["Let food be thy medicine and medicine be thy food.","Hippocrates"],
+["To ensure good health: eat lightly, breathe deeply, live moderately, cultivate cheerfulness, and maintain an interest in life.", "William Londen"],
+["Physical fitness is the first requisite of happiness.","Joseph Pilates"],
+["I have chosen to be happy because it is good for my health. - Voltaire"],
+["A sad soul can be just as lethal as a germ.", "John Steinbeck"],
+["Healthy citizens are the greatest asset any country can have.","Winston Churchill"],
+["Good health is not something we can buy. However, it can be an extremely valuable savings account.","Anne Wilson Schaef"],
+["He who has health has hope, and he who has hope has everything.","Thomas Carlyle"],
+["Health is not valued until sickness comes.","Thomas Fuller"],
+["You only live once, but if you do it right, once is enough."," Mae West"],
+["Your body hears everything your mind says.","Naomi Judd"],
+["Success is getting what you want, happiness is wanting what you get.","W.P. Kinsella"],
+["Good health and good sense are two of life’s greatest blessings.","Publilius Syrus"],
+["A fit, healthy body — that is the best fashion statement.","Jess C. Scott"],
+["I believe that the greatest gift you can give your family and the world is a healthy you.","Joyce Meyer"],
+["It is health which is real wealth and not pieces of gold and silver.","Mahatma Gandhi"],
+["The way you think, the way you behave, the way you eat, can influence your life by 30 to 50 years.","Deepak Chopra"],
+["Happiness lies first of all in health.","George William Curtis"],
+["If you're happy, if you're feeling good, then nothing else matters."," Robin Wright"],
+["Looking after my health today gives me a better hope for tomorrow. "," Anne Wilson Schaef"],
+["The first wealth is health. "," Ralph Waldo Emerson"]
+]
+let randomIndex = Math.floor(Math.random() * sentences.length);
+var randomSentence = sentences[randomIndex][0] + "-" + sentences[randomIndex][1];
+// document.write(randomSentence);
+document.getElementById("q").innerHTML = sentences[randomIndex][0]+"<br/><b>-'"+sentences[randomIndex][1]+"'</b>";
+    </script> 
+</body>
+</html>
