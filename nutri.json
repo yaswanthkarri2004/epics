@@ -1,0 +1,747 @@
+{
+  "foods": [
+    {
+      "name": "Apple",
+      "description": "Apples are a delicious and nutritious fruit. They are a good source of fiber, vitamin C, and various antioxidants. One medium-sized apple contains about 52 calories.",
+      "nutrients": [
+        { "name": "Energy", "amount": 52, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 14, "unit": "g" },
+        { "name": "Fiber", "amount": 2.4, "unit": "g" },
+        { "name": "Vitamin C", "amount": 4.6, "unit": "mg" },
+        { "name": "Calcium", "amount": 6, "unit": "mg" },
+        { "name": "Iron", "amount": 0.12, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Banana",
+      "description": "Bananas are a popular and nutritious fruit. They are rich in carbohydrates, particularly natural sugars like sucrose, fructose, and glucose. Bananas also provide essential vitamins and minerals like vitamin B6, vitamin C, and potassium.",
+      "nutrients": [
+        { "name": "Energy", "amount": 96, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 23, "unit": "g" },
+        { "name": "Fiber", "amount": 2.6, "unit": "g" },
+        { "name": "Vitamin B6", "amount": 0.4, "unit": "mg" },
+        { "name": "Vitamin C", "amount": 9.1, "unit": "mg" },
+        { "name": "Potassium", "amount": 358, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Mango",
+      "description": "Mangoes are the king of fruits in India. They are a rich source of vitamin C and vitamin A, providing numerous health benefits. One medium-sized mango contains about 60 calories.",
+      "nutrients": [
+        { "name": "Energy", "amount": 60, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 15, "unit": "g" },
+        { "name": "Fiber", "amount": 1.6, "unit": "g" },
+        { "name": "Vitamin A", "amount": 765, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 36.4, "unit": "mg" },
+        { "name": "Calcium", "amount": 10, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Grapes",
+      "description": "Grapes are sweet and juicy berries enjoyed as a snack or in desserts. They are a good source of vitamin C, providing about 10% of the daily recommended intake. Grapes also contain antioxidants like resveratrol, which may benefit heart health.",
+      "nutrients": [
+        { "name": "Energy", "amount": 69, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 18, "unit": "g" },
+        { "name": "Fiber", "amount": 0.9, "unit": "g" },
+        { "name": "Vitamin C", "amount": 10.8, "unit": "mg" },
+        { "name": "Vitamin K", "amount": 14.6, "unit": "µg" },
+        { "name": "Calcium", "amount": 10, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Orange",
+      "description": "Oranges are a refreshing citrus fruit packed with vitamin C, promoting a healthy immune system and collagen production. They are also a good source of dietary fiber, aiding digestion. Oranges are low in calories and rich in potassium, essential for maintaining blood pressure.",
+      "nutrients": [
+        { "name": "Energy", "amount": 43, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 8.3, "unit": "g" },
+        { "name": "Fiber", "amount": 2.4, "unit": "g" },
+        { "name": "Vitamin C", "amount": 53.2, "unit": "mg" },
+        { "name": "Vitamin A", "amount": 225, "unit": "IU" },
+        { "name": "Potassium", "amount": 181, "unit": "mg" }
+      ]
+    },
+      {
+      "name": "Pineapple",
+      "description": "Pineapple is a tropical fruit known for its sweet and tangy flavor. It is an excellent source of vitamin C, which boosts the immune system and supports skin health. Pineapple also contains bromelain, an enzyme that aids in digestion. This juicy fruit is low in calories and provides essential nutrients like vitamin B6, vitamin A, and manganese.",
+      "nutrients": [
+        { "name": "Energy", "amount": 50, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 13.1, "unit": "g" },
+        { "name": "Fiber", "amount": 1.4, "unit": "g" },
+        { "name": "Vitamin C", "amount": 36.7, "unit": "mg" },
+        { "name": "Vitamin B6", "amount": 0.112, "unit": "mg" },
+        { "name": "Vitamin A", "amount": 58, "unit": "IU" },
+        { "name": "Manganese", "amount": 0.927, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Watermelon",
+      "description": "Watermelon is a refreshing and hydrating fruit, perfect for hot summers. It is low in calories and high in water content. Watermelon is a good source of vitamins A and C, which support eye health and boost immunity. It also contains antioxidants like lycopene, which may have heart-protective effects. Additionally, watermelon provides small amounts of potassium and magnesium.",
+      "nutrients": [
+        { "name": "Energy", "amount": 30, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 7.6, "unit": "g" },
+        { "name": "Fiber", "amount": 0.4, "unit": "g" },
+        { "name": "Vitamin A", "amount": 569, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 8.1, "unit": "mg" },
+        { "name": "Potassium", "amount": 112, "unit": "mg" },
+        { "name": "Magnesium", "amount": 10, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Sweet Lime (Mosambi)",
+      "description": "Sweet Lime, also known as Mosambi in India, is a juicy and refreshing citrus fruit. It is an excellent source of vitamin C, which boosts the immune system and aids in collagen production. Sweet Lime is also rich in dietary fiber, promoting digestive health. It contains antioxidants like flavonoids and limonoids, providing various health benefits.",
+      "nutrients": [
+        { "name": "Energy", "amount": 43, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 8.9, "unit": "g" },
+        { "name": "Fiber", "amount": 0.9, "unit": "g" },
+        { "name": "Vitamin C", "amount": 29.7, "unit": "mg" },
+        { "name": "Calcium", "amount": 30, "unit": "mg" },
+        { "name": "Iron", "amount": 0.3, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Muskmelon",
+      "description": "Muskmelon, also known as Cantaloupe, is a sweet and juicy fruit with a high water content. It is rich in vitamin A, which supports vision health and immune function. Muskmelon is a good source of vitamin C and potassium, essential for overall well-being. The fruit's natural sweetness makes it a delicious and hydrating choice during hot summer days.",
+      "nutrients": [
+        { "name": "Energy", "amount": 34, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 8.2, "unit": "g" },
+        { "name": "Fiber", "amount": 0.9, "unit": "g" },
+        { "name": "Vitamin A", "amount": 3382, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 36.7, "unit": "mg" },
+        { "name": "Potassium", "amount": 267, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Lychee",
+      "description": "Lychee is a tropical fruit with a sweet and fragrant flavor. It is an excellent source of vitamin C, which supports the immune system and collagen production. Lychee is also rich in copper, promoting brain function and energy production. The fruit is low in calories and contains antioxidants that may help protect against oxidative stress.",
+      "nutrients": [
+        { "name": "Energy", "amount": 66, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 16.5, "unit": "g" },
+        { "name": "Fiber", "amount": 1.3, "unit": "g" },
+        { "name": "Vitamin C", "amount": 136.0, "unit": "mg" },
+        { "name": "Copper", "amount": 0.14, "unit": "mg" },
+        { "name": "Potassium", "amount": 171, "unit": "mg" }
+      ]
+    },
+        {
+      "name": "Custard Apple (Sitaphal)",
+      "description": "Custard apple, also known as Sitaphal in India, is a tropical fruit with a creamy and sweet flesh. It is a good source of dietary fiber, vitamin C, and potassium. Custard apple contains natural sugars and provides essential nutrients for overall health.",
+      "nutrients": [
+        { "name": "Energy", "amount": 94, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 23.6, "unit": "g" },
+        { "name": "Fiber", "amount": 2.4, "unit": "g" },
+        { "name": "Vitamin C", "amount": 24, "unit": "mg" },
+        { "name": "Potassium", "amount": 382, "unit": "mg" },
+        { "name": "Calcium", "amount": 30, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Pear",
+      "description": "Pear is a sweet and juicy fruit that is rich in dietary fiber and vitamin C. It contains natural sugars and provides essential nutrients for maintaining good health. Pear is a versatile fruit that can be enjoyed fresh, in salads, or as a part of various dishes.",
+      "nutrients": [
+        { "name": "Energy", "amount": 57, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 15, "unit": "g" },
+        { "name": "Fiber", "amount": 3.1, "unit": "g" },
+        { "name": "Vitamin C", "amount": 4.2, "unit": "mg" },
+        { "name": "Potassium", "amount": 116, "unit": "mg" },
+        { "name": "Calcium", "amount": 9, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Sapota (Chikoo)",
+      "description": "Sapota, commonly known as Chikoo in India, is a delicious and sweet fruit. It is a good source of energy, dietary fiber, and essential nutrients like vitamin A and potassium. Sapota is popularly used in milkshakes, desserts, and eaten fresh.",
+      "nutrients": [
+        { "name": "Energy", "amount": 83, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 19, "unit": "g" },
+        { "name": "Fiber", "amount": 5.3, "unit": "g" },
+        { "name": "Vitamin A", "amount": 39, "unit": "IU" },
+        { "name": "Potassium", "amount": 193, "unit": "mg" },
+        { "name": "Calcium", "amount": 21, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Jackfruit",
+      "description": "Jackfruit is a versatile and large tropical fruit with a unique flavor. It is a good source of energy, dietary fiber, and essential vitamins like vitamin C and vitamin B6. Jackfruit is used both in ripe and unripe forms for various culinary purposes.",
+      "nutrients": [
+        { "name": "Energy", "amount": 95, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 23, "unit": "g" },
+        { "name": "Fiber", "amount": 2.6, "unit": "g" },
+        { "name": "Vitamin C", "amount": 13.8, "unit": "mg" },
+        { "name": "Vitamin B6", "amount": 0.329, "unit": "mg" },
+        { "name": "Potassium", "amount": 303, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Blackberry (Jamun)",
+      "description": "Blackberry, also known as Jamun in India, is a rich source of antioxidants and nutrients. It is known for its deep purple color and tangy-sweet flavor. Blackberry is low in calories and contains essential vitamins and minerals that support overall health.",
+      "nutrients": [
+        { "name": "Energy", "amount": 62, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 14, "unit": "g" },
+        { "name": "Fiber", "amount": 0.9, "unit": "g" },
+        { "name": "Vitamin C", "amount": 14.3, "unit": "mg" },
+        { "name": "Vitamin K", "amount": 19.8, "unit": "µg" },
+        { "name": "Calcium", "amount": 19, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Strawberry",
+      "description": "Strawberry is a delicious and popular fruit that is high in vitamin C and antioxidants. It is low in calories and a good source of dietary fiber. Strawberries are enjoyed fresh, in salads, desserts, and as a topping for various dishes.",
+      "nutrients": [
+        { "name": "Energy", "amount": 32, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 7.7, "unit": "g" },
+        { "name": "Fiber", "amount": 2, "unit": "g" },
+        { "name": "Vitamin C", "amount": 58.8, "unit": "mg" },
+        { "name": "Manganese", "amount": 0.386, "unit": "mg" },
+        { "name": "Potassium", "amount": 153, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Kiwi",
+      "description": "Kiwi is a nutrient-dense fruit with a vibrant green flesh and a tangy taste. It is a powerhouse of vitamin C, supporting the immune system and skin health. Kiwi is also rich in vitamin K, promoting bone health and blood clotting. The fruit provides dietary fiber, aiding in digestion and bowel regularity. Additionally, kiwi contains antioxidants like vitamin E and flavonoids, offering potential health benefits.",
+      "nutrients": [
+        { "name": "Energy", "amount": 61, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 14.6, "unit": "g" },
+        { "name": "Fiber", "amount": 3.0, "unit": "g" },
+        { "name": "Vitamin C", "amount": 92.7, "unit": "mg" },
+        { "name": "Vitamin K", "amount": 40.3, "unit": "µg" },
+        { "name": "Vitamin E", "amount": 1.46, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Pomegranate",
+      "description": "Pomegranate is a superfruit packed with antioxidants and essential nutrients. It is known for its juicy, ruby-red arils. Pomegranates are a rich source of vitamin C, which boosts the immune system. They also contain potent antioxidants like punicalagins and anthocyanins, which may help protect against chronic diseases. Additionally, pomegranates provide a good amount of vitamin K and potassium.",
+      "nutrients": [
+        { "name": "Energy", "amount": 83, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 18.7, "unit": "g" },
+        { "name": "Fiber", "amount": 4, "unit": "g" },
+        { "name": "Vitamin C", "amount": 10.2, "unit": "mg" },
+        { "name": "Vitamin K", "amount": 16.4, "unit": "µg" },
+        { "name": "Potassium", "amount": 236, "unit": "mg" },
+        { "name": "Antioxidants", "amount": "High", "unit": "" }
+      ]
+    },
+    {
+      "name": "Papaya",
+      "description": "Papaya is a tropical fruit known for its vibrant color and sweet flavor. It is an excellent source of vitamin C, supporting a strong immune system and skin health. Papaya contains enzymes like papain, aiding digestion and reducing bloating.",
+      "nutrients": [
+        { "name": "Energy", "amount": 43, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 11, "unit": "g" },
+        { "name": "Fiber", "amount": 1.7, "unit": "g" },
+        { "name": "Vitamin C", "amount": 61.8, "unit": "mg" },
+        { "name": "Vitamin A", "amount": 1094, "unit": "IU" },
+        { "name": "Calcium", "amount": 20, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Guava",
+      "description": "Guava is a tropical fruit with a unique flavor. It is a rich source of vitamin C, which helps boost the immune system. Guava is also high in dietary fiber, promoting digestive health.",
+      "nutrients": [
+        { "name": "Energy", "amount": 68, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 14.3, "unit": "g" },
+        { "name": "Fiber", "amount": 5.4, "unit": "g" },
+        { "name": "Vitamin C", "amount": 228, "unit": "mg" },
+        { "name": "Vitamin A", "amount": 624, "unit": "IU" },
+        { "name": "Calcium", "amount": 18, "unit": "mg" }
+      ]
+    },
+       {
+      "name": "Potato",
+      "description": "Potatoes are a versatile and widely consumed vegetable. They are a good source of carbohydrates, providing energy for the body. Potatoes also contain essential vitamins like vitamin C and vitamin B6. Additionally, they contain minerals such as potassium and magnesium.",
+      "nutrients": [
+        { "name": "Energy", "amount": 77, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 17, "unit": "g" },
+        { "name": "Fiber", "amount": 2.2, "unit": "g" },
+        { "name": "Vitamin C", "amount": 19.7, "unit": "mg" },
+        { "name": "Vitamin B6", "amount": 0.3, "unit": "mg" },
+        { "name": "Potassium", "amount": 429, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Tomato",
+      "description": "Tomatoes are a juicy and flavorful fruit used as a vegetable in cooking. They are rich in vitamins, especially vitamin C and vitamin A. Tomatoes also contain antioxidants like lycopene, which have numerous health benefits.",
+      "nutrients": [
+        { "name": "Energy", "amount": 74, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 3.9, "unit": "g" },
+        { "name": "Fiber", "amount": 1.2, "unit": "g" },
+        { "name": "Vitamin C", "amount": 13.7, "unit": "mg" },
+        { "name": "Vitamin A", "amount": 42.8, "unit": "µg" },
+        { "name": "Lycopene", "amount": 2573, "unit": "µg" }
+      ]
+    },
+    {
+      "name": "Onion",
+      "description": "Onions are a staple ingredient in various cuisines. They are low in calories and rich in antioxidants. Onions also provide vitamin C and other beneficial compounds that support the immune system.",
+      "nutrients": [
+        { "name": "Energy", "amount": 40, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 9.3, "unit": "g" },
+        { "name": "Fiber", "amount": 1.7, "unit": "g" },
+        { "name": "Vitamin C", "amount": 7.4, "unit": "mg" },
+        { "name": "Antioxidants", "amount": 7.4, "unit": "mg" },
+        { "name": "Flavonoids", "amount": 19, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Brinjal (Eggplant)",
+      "description": "Brinjal, also known as Eggplant, is a popular vegetable in Indian cuisine. It is low in calories and rich in dietary fiber. Brinjal contains essential nutrients like vitamin C, vitamin K, and potassium.",
+      "nutrients": [
+        { "name": "Energy", "amount": 25, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 6, "unit": "g" },
+        { "name": "Fiber", "amount": 3, "unit": "g" },
+        { "name": "Vitamin C", "amount": 2.2, "unit": "mg" },
+        { "name": "Vitamin K", "amount": 3.5, "unit": "µg" },
+        { "name": "Potassium", "amount": 229, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Ladyfinger (Okra)",
+      "description": "Ladyfinger, also known as Okra, is a nutritious and slimy vegetable used in various Indian dishes. It is a good source of dietary fiber, supporting digestive health. Ladyfinger also provides vitamin C and folate.",
+      "nutrients": [
+        { "name": "Energy", "amount": 33, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 7, "unit": "g" },
+        { "name": "Fiber", "amount": 3.2, "unit": "g" },
+        { "name": "Vitamin C", "amount": 23, "unit": "mg" },
+        { "name": "Folate", "amount": 60, "unit": "µg" },
+        { "name": "Vitamin K", "amount": 53, "unit": "µg" }
+      ]
+    },
+      {
+      "name": "Cabbage",
+      "description": "Cabbage is a cruciferous vegetable with a mild, earthy flavor. It is low in calories and a good source of dietary fiber, vitamin C, vitamin K, and vitamin B6. Cabbage also contains small amounts of calcium, iron, and magnesium.",
+      "nutrients": [
+        { "name": "Energy", "amount": 25, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 5.8, "unit": "g" },
+        { "name": "Fiber", "amount": 2.5, "unit": "g" },
+        { "name": "Vitamin C", "amount": 36.6, "unit": "mg" },
+        { "name": "Vitamin K", "amount": 42, "unit": "µg" },
+        { "name": "Vitamin B6", "amount": 0.124, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Cauliflower",
+      "description": "Cauliflower is a versatile vegetable with a mild, nutty flavor. It is low in calories and a good source of vitamin C, vitamin K, and folate. Cauliflower also contains small amounts of fiber, vitamin B6, and potassium.",
+      "nutrients": [
+        { "name": "Energy", "amount": 25, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 5.3, "unit": "g" },
+        { "name": "Fiber", "amount": 2, "unit": "g" },
+        { "name": "Vitamin C", "amount": 48.2, "unit": "mg" },
+        { "name": "Vitamin K", "amount": 16, "unit": "µg" },
+        { "name": "Folate", "amount": 57, "unit": "µg" }
+      ]
+    },
+    {
+      "name": "Carrot",
+      "description": "Carrots are a crunchy and sweet root vegetable. They are rich in beta-carotene, which the body converts into vitamin A. Carrots also provide vitamin K, vitamin C, and dietary fiber.",
+      "nutrients": [
+        { "name": "Energy", "amount": 41, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 9.6, "unit": "g" },
+        { "name": "Fiber", "amount": 2.8, "unit": "g" },
+        { "name": "Vitamin A", "amount": 835, "unit": "µg" },
+        { "name": "Vitamin K", "amount": 13.2, "unit": "µg" },
+        { "name": "Vitamin C", "amount": 5.9, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Radish",
+      "description": "Radishes are a crunchy root vegetable with a slightly spicy flavor. They are low in calories and a good source of vitamin C, potassium, and dietary fiber. Radishes also contain small amounts of vitamin B6 and calcium.",
+      "nutrients": [
+        { "name": "Energy", "amount": 16, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 3.4, "unit": "g" },
+        { "name": "Fiber", "amount": 1.6, "unit": "g" },
+        { "name": "Vitamin C", "amount": 14.8, "unit": "mg" },
+        { "name": "Potassium", "amount": 233, "unit": "mg" },
+        { "name": "Calcium", "amount": 25, "unit": "mg" }
+      ]
+    },
+       {
+      "name": "Beetroot",
+      "description": "Beetroot is a nutritious and vibrant vegetable. It is rich in essential vitamins and minerals, including vitamin C, potassium, and folate. The vibrant color of beetroot indicates its high antioxidant content. It also contains dietary fiber, which aids in digestion. Beetroots are a versatile vegetable that can be enjoyed raw in salads, cooked in curries, or blended into smoothies.",
+      "nutrients": [
+        { "name": "Energy", "amount": 43, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 9.6, "unit": "g" },
+        { "name": "Fiber", "amount": 2.8, "unit": "g" },
+        { "name": "Vitamin C", "amount": 4.9, "unit": "mg" },
+        { "name": "Potassium", "amount": 325, "unit": "mg" },
+        { "name": "Folate", "amount": 109, "unit": "µg" }
+      ]
+    },
+    {
+      "name": "Pumpkin",
+      "description": "Pumpkin is a nutritious and delicious vegetable that is low in calories but rich in essential nutrients. It is a good source of vitamin A, which is beneficial for eye health. Pumpkin also provides vitamin C, potassium, and dietary fiber, which aids in digestion. Additionally, its seeds are packed with protein, healthy fats, and magnesium. Pumpkin can be roasted, steamed, or used in soups and curries to add a delightful flavor and texture to various dishes.",
+      "nutrients": [
+        { "name": "Energy", "amount": 26, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 6.5, "unit": "g" },
+        { "name": "Fiber", "amount": 0.5, "unit": "g" },
+        { "name": "Vitamin A", "amount": 426, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 9, "unit": "mg" },
+        { "name": "Potassium", "amount": 340, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Capsicum (Bell Pepper)",
+      "description": "Capsicum, commonly known as bell pepper, is a colorful and nutritious vegetable. It is a rich source of vitamin C, which boosts the immune system and promotes healthy skin. Capsicum also provides vitamin A, B6, and folate, which are essential for overall well-being. Additionally, it contains antioxidants that help protect the body from oxidative stress. Capsicum can be used in salads, stir-fries, and stuffed dishes to add a delightful crunch and flavor to meals.",
+      "nutrients": [
+        { "name": "Energy", "amount": 31, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 6, "unit": "g" },
+        { "name": "Fiber", "amount": 2.1, "unit": "g" },
+        { "name": "Vitamin C", "amount": 80.4, "unit": "mg" },
+        { "name": "Vitamin A", "amount": 3131, "unit": "IU" },
+        { "name": "Vitamin B6", "amount": 0.3, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Spinach (Palak)",
+      "description": "Spinach, also known as palak, is a highly nutritious leafy green vegetable. It is an excellent source of iron, which is essential for healthy blood and energy production. Spinach also provides vitamins A, C, and K, as well as folate and calcium. It is low in calories and high in dietary fiber, making it beneficial for digestion and weight management. Spinach can be used in salads, soups, and curries to add a burst of nutrients and vibrant color to meals.",
+      "nutrients": [
+        { "name": "Energy", "amount": 23, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 3.6, "unit": "g" },
+        { "name": "Fiber", "amount": 2.2, "unit": "g" },
+        { "name": "Vitamin A", "amount": 4696, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 28.1, "unit": "mg" },
+        { "name": "Iron", "amount": 2.7, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Broccoli",
+      "description": "Broccoli is a highly nutritious cruciferous vegetable. It is a rich source of vitamin C, vitamin K, and folate. Broccoli also provides essential minerals like potassium and iron. Additionally, it contains bioactive compounds with potential health benefits, such as sulforaphane, which has antioxidant and anti-inflammatory properties. Broccoli can be steamed, roasted, or added to salads and stir-fries to enjoy its numerous health benefits and delicious taste.",
+      "nutrients": [
+        { "name": "Energy", "amount": 34, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 6.6, "unit": "g" },
+        { "name": "Fiber", "amount": 2.6, "unit": "g" },
+        { "name": "Vitamin C", "amount": 89.2, "unit": "mg" },
+        { "name": "Vitamin K", "amount": 101.6, "unit": "µg" },
+        { "name": "Potassium", "amount": 316, "unit": "mg" }
+      ]
+    },
+        {
+      "name": "Green Peas",
+      "description": "Green peas are small, round, and vibrant green vegetables. They are rich in dietary fiber, vitamins A, C, and K, as well as essential minerals like iron and calcium. Green peas are a good source of protein and are commonly used in Indian curries, pulao, and snacks.",
+      "nutrients": [
+        { "name": "Energy", "amount": 81, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 14, "unit": "g" },
+        { "name": "Protein", "amount": 5, "unit": "g" },
+        { "name": "Fiber", "amount": 5, "unit": "g" },
+        { "name": "Vitamin A", "amount": 765, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 40, "unit": "mg" },
+        { "name": "Calcium", "amount": 25, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "French Beans",
+      "description": "French beans, also known as green beans, are long, slender, and bright green. They are low in calories and high in fiber, providing essential vitamins and minerals like vitamin K, vitamin C, and manganese. French beans are commonly used in Indian stir-fries, curries, and salads.",
+      "nutrients": [
+        { "name": "Energy", "amount": 31, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 7, "unit": "g" },
+        { "name": "Fiber", "amount": 3, "unit": "g" },
+        { "name": "Vitamin K", "amount": 14, "unit": "µg" },
+        { "name": "Vitamin C", "amount": 16, "unit": "mg" },
+        { "name": "Manganese", "amount": 0.2, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Bitter Gourd (Karela)",
+      "description": "Bitter gourd, also known as Karela, is a unique vegetable with a bitter taste. It is a rich source of vitamins B1, B2, and B3, and contains essential minerals like iron, magnesium, and potassium. Bitter gourd is believed to have various health benefits and is commonly used in Indian Ayurvedic medicine.",
+      "nutrients": [
+        { "name": "Energy", "amount": 17, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 3.7, "unit": "g" },
+        { "name": "Protein", "amount": 1, "unit": "g" },
+        { "name": "Fiber", "amount": 2.8, "unit": "g" },
+        { "name": "Vitamin B1", "amount": 0.04, "unit": "mg" },
+        { "name": "Vitamin B2", "amount": 0.05, "unit": "mg" },
+        { "name": "Iron", "amount": 0.38, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Bottle Gourd (Lauki)",
+      "description": "Bottle gourd, also known as Lauki or Dudhi, is a light green, bottle-shaped vegetable. It is low in calories and high in water content, making it a hydrating choice. Bottle gourd is rich in vitamins C and B complex, as well as essential minerals like calcium and magnesium. It is commonly used in Indian soups, curries, and desserts.",
+      "nutrients": [
+        { "name": "Energy", "amount": 15, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 3.7, "unit": "g" },
+        { "name": "Fiber", "amount": 1, "unit": "g" },
+        { "name": "Vitamin C", "amount": 8, "unit": "mg" },
+        { "name": "Calcium", "amount": 20, "unit": "mg" },
+        { "name": "Magnesium", "amount": 13, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Ridge Gourd (Turai)",
+      "description": "Ridge gourd, also known as Turai, is a long, slender vegetable with ridges on the surface. It is a good source of dietary fiber, providing vitamins A, C, and iron. Ridge gourd is low in calories and commonly used in Indian stir-fries, curries, and chutneys.",
+      "nutrients": [
+        { "name": "Energy", "amount": 20, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 3.6, "unit": "g" },
+        { "name": "Fiber", "amount": 1, "unit": "g" },
+        { "name": "Vitamin A", "amount": 60, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 12, "unit": "mg" },
+        { "name": "Iron", "amount": 0.5, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Drumstick (Moringa)",
+      "description": "Drumstick, also known as Moringa, is a long, slender vegetable with a unique taste. It is rich in vitamins A, C, and K, and contains essential minerals like iron and calcium. Drumstick is commonly used in Indian soups, curries, and pickles.",
+      "nutrients": [
+        { "name": "Energy", "amount": 37, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 8.5, "unit": "g" },
+        { "name": "Protein", "amount": 2.5, "unit": "g" },
+        { "name": "Fiber", "amount": 2, "unit": "g" },
+        { "name": "Vitamin A", "amount": 480, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 120, "unit": "mg" },
+        { "name": "Calcium", "amount": 30, "unit": "mg" }
+      ]
+    },
+     {
+      "name": "Ash Gourd (Petha)",
+      "description": "Ash Gourd, also known as Petha in India, is a nutritious and hydrating vegetable. It is low in calories and a good source of vitamins and minerals. Ash Gourd is rich in water content, making it a refreshing addition to meals. It provides nutrients like Vitamin C, Vitamin B, calcium, and iron.",
+      "nutrients": [
+        { "name": "Energy", "amount": 13, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 3.4, "unit": "g" },
+        { "name": "Protein", "amount": 0.2, "unit": "g" },
+        { "name": "Fiber", "amount": 0.1, "unit": "g" },
+        { "name": "Vitamin C", "amount": 6.8, "unit": "mg" },
+        { "name": "Calcium", "amount": 26, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Cluster Beans (Gavar)",
+      "description": "Cluster Beans, commonly known as Gavar in India, are a nutritious and versatile vegetable. They are a good source of dietary fiber, iron, and potassium. Gavar is low in calories and rich in essential vitamins. It aids in digestion, helps maintain blood sugar levels, and supports heart health.",
+      "nutrients": [
+        { "name": "Energy", "amount": 15, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 3.7, "unit": "g" },
+        { "name": "Protein", "amount": 1.2, "unit": "g" },
+        { "name": "Fiber", "amount": 2.2, "unit": "g" },
+        { "name": "Iron", "amount": 1.4, "unit": "mg" },
+        { "name": "Potassium", "amount": 189, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Snake Gourd (Padwal)",
+      "description": "Snake Gourd, known as Padwal in India, is a nutritious vegetable with numerous health benefits. It is low in calories and high in water content, making it ideal for weight management. Snake Gourd is a good source of vitamins, minerals, and antioxidants. It aids in digestion and supports skin health.",
+      "nutrients": [
+        { "name": "Energy", "amount": 19, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 4.0, "unit": "g" },
+        { "name": "Protein", "amount": 0.6, "unit": "g" },
+        { "name": "Fiber", "amount": 0.5, "unit": "g" },
+        { "name": "Vitamin C", "amount": 2.8, "unit": "mg" },
+        { "name": "Vitamin A", "amount": 30, "unit": "IU" }
+      ]
+    },
+    {
+      "name": "Tinda",
+      "description": "Tinda, also called Indian round gourd, is a nutritious and easy-to-digest vegetable. It is low in calories and high in fiber, making it beneficial for digestive health. Tinda is a good source of vitamins like Vitamin C and essential minerals like iron and calcium. It helps in maintaining blood pressure and supports overall well-being.",
+      "nutrients": [
+        { "name": "Energy", "amount": 17, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 3.6, "unit": "g" },
+        { "name": "Protein", "amount": 0.6, "unit": "g" },
+        { "name": "Fiber", "amount": 1.0, "unit": "g" },
+        { "name": "Vitamin C", "amount": 10, "unit": "mg" },
+        { "name": "Iron", "amount": 0.3, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Sponge Gourd (Torai)",
+      "description": "Sponge Gourd, commonly known as Torai in India, is a nutritious and versatile vegetable. It is low in calories and contains essential vitamins and minerals. Sponge Gourd is a good source of dietary fiber, aiding in digestion and promoting gut health. It also helps regulate blood sugar levels and supports immune function.",
+      "nutrients": [
+        { "name": "Energy", "amount": 14, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 3.0, "unit": "g" },
+        { "name": "Protein", "amount": 0.4, "unit": "g" },
+        { "name": "Fiber", "amount": 0.5, "unit": "g" },
+        { "name": "Vitamin C", "amount": 5, "unit": "mg" },
+        { "name": "Calcium", "amount": 36, "unit": "mg" }
+      ]
+    },
+        {
+      "name": "Ivy Gourd (Tindora)",
+      "description": "Ivy Gourd, also known as Tindora or Kundru, is a small green vegetable used in Indian cooking. It is low in calories and contains dietary fiber, which aids in digestion. Ivy gourd is a good source of vitamin C, essential for a healthy immune system.",
+      "nutrients": [
+        { "name": "Energy", "amount": 19, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 4.3, "unit": "g" },
+        { "name": "Fiber", "amount": 1.8, "unit": "g" },
+        { "name": "Vitamin C", "amount": 20.8, "unit": "mg" },
+        { "name": "Calcium", "amount": 130, "unit": "mg" },
+        { "name": "Iron", "amount": 1.6, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Elephant Yam (Suran)",
+      "description": "Elephant Yam, also known as Suran or Jimikand, is a starchy tuberous root vegetable. It is a good source of carbohydrates and provides energy. Yam is rich in dietary fiber, which supports digestive health. It also contains essential minerals like potassium, magnesium, and vitamin B6.",
+      "nutrients": [
+        { "name": "Energy", "amount": 118, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 27.9, "unit": "g" },
+        { "name": "Fiber", "amount": 4.1, "unit": "g" },
+        { "name": "Potassium", "amount": 816, "unit": "mg" },
+        { "name": "Magnesium", "amount": 21, "unit": "mg" },
+        { "name": "Vitamin B6", "amount": 0.28, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Sweet Potato",
+      "description": "Sweet Potato, also known as Shakarkandi, is a nutritious root vegetable with a sweet taste. It is rich in complex carbohydrates and dietary fiber, making it a filling and nourishing food. Sweet potatoes are packed with beta-carotene, a potent antioxidant that converts to vitamin A in the body.",
+      "nutrients": [
+        { "name": "Energy", "amount": 86, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 20.1, "unit": "g" },
+        { "name": "Fiber", "amount": 3, "unit": "g" },
+        { "name": "Vitamin A (as Beta-Carotene)", "amount": 709, "unit": "µg" },
+        { "name": "Vitamin C", "amount": 2.4, "unit": "mg" },
+        { "name": "Potassium", "amount": 337, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Ginger",
+      "description": "Ginger is a flavorful and aromatic spice used in Indian cuisine and traditional medicine. It is low in calories and rich in bioactive compounds like gingerol, which has anti-inflammatory properties. Ginger is known to aid digestion and alleviate nausea.",
+      "nutrients": [
+        { "name": "Energy", "amount": 80, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 17.8, "unit": "g" },
+        { "name": "Fiber", "amount": 2, "unit": "g" },
+        { "name": "Iron", "amount": 0.6, "unit": "mg" },
+        { "name": "Vitamin B6", "amount": 0.16, "unit": "mg" },
+        { "name": "Magnesium", "amount": 43, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Garlic",
+      "description": "Garlic is a pungent bulbous vegetable used in Indian cooking for its distinct flavor. It is low in calories and contains beneficial compounds like allicin, which has antimicrobial properties. Garlic is known to support heart health and boost the immune system.",
+      "nutrients": [
+        { "name": "Energy", "amount": 149, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 33.1, "unit": "g" },
+        { "name": "Fiber", "amount": 2.1, "unit": "g" },
+        { "name": "Vitamin C", "amount": 31.2, "unit": "mg" },
+        { "name": "Calcium", "amount": 181, "unit": "mg" },
+        { "name": "Iron", "amount": 1.7, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Green Chili",
+      "description": "Green Chilies are widely used in Indian cooking to add heat and spice to dishes. They are low in calories and contain capsaicin, a compound responsible for their spiciness. Green chilies are a good source of vitamin C and may aid in boosting metabolism.",
+      "nutrients": [
+        { "name": "Energy", "amount": 40, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 9.5, "unit": "g" },
+        { "name": "Fiber", "amount": 1.8, "unit": "g" },
+        { "name": "Vitamin C", "amount": 142, "unit": "mg" },
+        { "name": "Vitamin A", "amount": 2115, "unit": "IU" },
+        { "name": "Potassium", "amount": 425, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Red Chili",
+      "description": "Red Chilies are dried and ground to make a popular spice powder in Indian cooking. They are rich in antioxidants and contain capsaicin, providing a fiery taste. Red chilies may aid in boosting metabolism and promoting heart health.",
+      "nutrients": [
+        { "name": "Energy", "amount": 282, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 53.99, "unit": "g" },
+        { "name": "Fiber", "amount": 10.3, "unit": "g" },
+        { "name": "Vitamin C", "amount": 144.7, "unit": "mg" },
+        { "name": "Vitamin A", "amount": 970, "unit": "IU" },
+        { "name": "Potassium", "amount": 322, "unit": "mg" }
+      ]
+    },
+       {
+      "name": "Coriander Leaves (Dhaniya)",
+      "description": "Coriander leaves, also known as cilantro, are a popular herb used in Indian cooking for their fresh and citrusy flavor. They are rich in vitamin A, vitamin C, and antioxidants. Coriander leaves add a burst of freshness to various dishes.",
+      "nutrients": [
+        { "name": "Energy", "amount": 23, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 3.67, "unit": "g" },
+        { "name": "Protein", "amount": 2.13, "unit": "g" },
+        { "name": "Fat", "amount": 0.52, "unit": "g" },
+        { "name": "Vitamin A", "amount": 6748, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 27.7, "unit": "mg" },
+        { "name": "Calcium", "amount": 67, "unit": "mg" },
+        { "name": "Iron", "amount": 1.77, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Mint Leaves (Pudina)",
+      "description": "Mint leaves have a refreshing and cooling taste. They are rich in antioxidants and essential oils that aid digestion and soothe the stomach. Mint leaves are widely used in chutneys, drinks, and curries.",
+      "nutrients": [
+        { "name": "Energy", "amount": 70, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 14.89, "unit": "g" },
+        { "name": "Protein", "amount": 3.75, "unit": "g" },
+        { "name": "Fat", "amount": 0.94, "unit": "g" },
+        { "name": "Vitamin A", "amount": 5368, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 31.8, "unit": "mg" },
+        { "name": "Calcium", "amount": 199, "unit": "mg" },
+        { "name": "Iron", "amount": 5.08, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Curry Leaves (Kadi Patta)",
+      "description": "Curry leaves are aromatic and used in Indian cuisine for their distinct flavor. They are rich in iron, calcium, and vitamins, promoting better digestion and supporting hair health.",
+      "nutrients": [
+        { "name": "Energy", "amount": 108, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 18.7, "unit": "g" },
+        { "name": "Protein", "amount": 6.1, "unit": "g" },
+        { "name": "Fat", "amount": 2.0, "unit": "g" },
+        { "name": "Vitamin A", "amount": 6240, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 4.0, "unit": "mg" },
+        { "name": "Calcium", "amount": 830, "unit": "mg" },
+        { "name": "Iron", "amount": 4.0, "unit": "mg" }
+      ]
+    },
+     {
+      "name": "Fenugreek Leaves (Methi)",
+      "description": "Fenugreek leaves have a slightly bitter taste and are used in many Indian dishes. They are rich in iron, calcium, and dietary fiber, aiding digestion and supporting heart health.",
+      "nutrients": [
+        { "name": "Energy", "amount": 49, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 6.0, "unit": "g" },
+        { "name": "Protein", "amount": 4.4, "unit": "g" },
+        { "name": "Fat", "amount": 0.9, "unit": "g" },
+        { "name": "Vitamin A", "amount": 3220, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 220, "unit": "mg" },
+        { "name": "Calcium", "amount": 395, "unit": "mg" },
+        { "name": "Iron", "amount": 33, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Amaranth Leaves (Chaulai)",
+      "description": "Amaranth leaves are highly nutritious and commonly consumed as leafy greens in India. They are rich in protein, vitamins, and minerals, promoting bone health and supporting the immune system.",
+      "nutrients": [
+        { "name": "Energy", "amount": 23, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 4.02, "unit": "g" },
+        { "name": "Protein", "amount": 2.46, "unit": "g" },
+        { "name": "Fat", "amount": 0.33, "unit": "g" },
+        { "name": "Vitamin A", "amount": 4800, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 43, "unit": "mg" },
+        { "name": "Calcium", "amount": 215, "unit": "mg" },
+        { "name": "Iron", "amount": 3.91, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Drumstick Leaves (Moringa)",
+      "description": "Drumstick leaves, also known as moringa leaves, are highly nutritious and have a unique flavor. They are rich in iron, calcium, and vitamins, promoting overall health and well-being.",
+      "nutrients": [
+        { "name": "Energy", "amount": 64, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 8.53, "unit": "g" },
+        { "name": "Protein", "amount": 9.4, "unit": "g" },
+        { "name": "Fat", "amount": 1.40, "unit": "g" },
+        { "name": "Vitamin A", "amount": 37800, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 220, "unit": "mg" },
+        { "name": "Calcium", "amount": 185, "unit": "mg" },
+        { "name": "Iron", "amount": 28.2, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Mustard Leaves (Sarson)",
+      "description": "Mustard leaves are widely used in Indian cooking for their pungent and peppery flavor. They are rich in antioxidants and vitamins, supporting overall health and immunity.",
+      "nutrients": [
+        { "name": "Energy", "amount": 26, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 4.0, "unit": "g" },
+        { "name": "Protein", "amount": 2.5, "unit": "g" },
+        { "name": "Fat", "amount": 0.5, "unit": "g" },
+        { "name": "Vitamin A", "amount": 5000, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 120, "unit": "mg" },
+        { "name": "Calcium", "amount": 500, "unit": "mg" },
+        { "name": "Iron", "amount": 11, "unit": "mg" }
+      ]
+    },
+    {
+      "name": "Radish Leaves (Mooli Ke Patte)",
+      "description": "Radish leaves are edible and can be used in salads or cooked as greens. They are a good source of vitamin C, vitamin K, and calcium, supporting bone health and immunity.",
+      "nutrients": [
+        { "name": "Energy", "amount": 16, "unit": "kcal" },
+        { "name": "Carbohydrates", "amount": 2.9, "unit": "g" },
+        { "name": "Protein", "amount": 1.0, "unit": "g" },
+        { "name": "Fat", "amount": 0.1, "unit": "g" },
+        { "name": "Vitamin A", "amount": 4400, "unit": "IU" },
+        { "name": "Vitamin C", "amount": 37.2, "unit": "mg" },
+        { "name": "Calcium", "amount": 254, "unit": "mg" },
+        { "name": "Iron", "amount": 3.7, "unit": "mg" }
+      ]
+    }
+  ]
+}
+
