@@ -35,6 +35,7 @@
     box-sizing: border-box;
     border: none;
     border-bottom: 0px solid red;
+	background-color:white;
   }
 .logo{
     margin: none;
