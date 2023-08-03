@@ -186,4 +186,50 @@
       #res{
         display: block;
       }
+           }
+ 
+      
+      footer {
+        text-align: center;
+        padding: 3px;
+        background-color: black;
+        color: white;
+      }
+      footer table {
+        justify-content: space-around;
+        padding: 50px;
+      }
+        footer a {
+            font-size: 13px;
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+          }
+      /* Basic table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styling table headers (th) */
+  th {
+    background-color: #000;
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styling table cells (td) */
+  td {
+    padding: 8px;
+    border: 1px solid #000;
+  }
+  
+  /* Alternate row background color for better readability */
+  /* tr:nth-child(even) {
+    background-color: #f9f9f9;
+  } */
+  
+
 
