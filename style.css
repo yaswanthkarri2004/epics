@@ -182,3 +182,7 @@
         background-color: rgba(35, 255, 13, 0.7);
         border-left: #FFEBEB;
       }
+      #res{
+        display: block;
+      }
+
