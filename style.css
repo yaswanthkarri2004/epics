@@ -24,7 +24,7 @@
 
 .search input{
      width: 91%;
-
+     background: none;
      text-align: center;
      border: none;
      box-sizing: border-box;
@@ -35,7 +35,6 @@
     box-sizing: border-box;
     border: none;
     border-bottom: 0px solid red;
-	background-color:white;
   }
 .logo{
     margin: none;
@@ -186,7 +185,6 @@
       #res{
         display: block;
       }
-           }
  
       
       footer {
@@ -231,5 +229,3 @@ table {
     background-color: #f9f9f9;
   } */
   
-
-
